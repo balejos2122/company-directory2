@@ -3,7 +3,7 @@
     <RouterLink :to="{name: 'Home'}">Home</RouterLink>
     <RouterLink :to="{name: 'Other'}">Other</RouterLink>
     <RouterLink :to="{name: 'LoginPage'}">Login</RouterLink>
-    <RouterLink :to="{name: 'Settings'}">Settings</RouterLink>
+    <RouterLink :to="{name: 'SettingsPage'}">Settings</RouterLink>
   </nav>
 </template>
 
