@@ -12,7 +12,7 @@ const username = faker.internet.userName({firstName: firstname, lastName:lastnam
 <template>
     <!-- {{ fullname }} <br /> -->
     <div class="border border-gray-400 rounded-lg bg-gray-200 h-full">
-        <img :src="faker.image.urlLoremFlickr({category: 'cat'})" />
+        <img :src="faker.image.urlLoremFlickr({category: 'cat'})" class="rounded-t xl"/>
         <div class="p-4">
             <p class="mb-2 text-2x1 font-bold">{{ fullname }}</p>
             <p class="mb-3 font-normal text-gray-700">{{ job_title }}</p>
